@@ -15,12 +15,30 @@ main {
   overflow-y: auto;
 }
 
-.chats-list {
-  list-style: none;
-  padding: 0;
+.col-10 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-container {
+  text-align: center;
 }
 
 .chat-item {
+  display: flex;
+  align-items: center;
   padding: 10px;
   border-bottom: 1px solid #ccc;
+}
+
+.chat-item img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+#manos{
+width: 200px; 
+height: auto;
 }
