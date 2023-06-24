@@ -1,0 +1,26 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  border: 1px solid #ccc;
+}
+
+.col-2 {
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.chats-list {
+  list-style: none;
+  padding: 0;
+}
+
+.chat-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
